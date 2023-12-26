@@ -5,7 +5,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/Masterminds/sprig"
+	"github.com/zach/sprig"
 	"strings"
 	"text/template"
 	"time"
