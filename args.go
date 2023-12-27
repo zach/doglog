@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./config"
+	"doglog/config"
 	"fmt"
 	"github.com/akamensky/argparse"
 	"github.com/araddon/dateparse"

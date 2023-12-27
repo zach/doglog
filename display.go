@@ -1,7 +1,7 @@
 package main
 
 import (
-	"./config"
+	"doglog/config"
 	"bytes"
 	"encoding/json"
 	"fmt"
