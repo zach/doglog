@@ -14,12 +14,12 @@ func ExampleExpand() {
 }
 
 func TestExpandPath(t *testing.T) {
-	path1 := expandPath("~/.datadog")
+	path1 := expandPath("~/.doglog")
 
 	usr, _ := user.Current()
 	dir := usr.HomeDir
 
-	if path1 != dir+"/.datadog" {
-		t.Errorf("expandPath(\"~/.datadog\") = %s", path1)
+	if path1 != dir+"/.doglog" {
+		t.Errorf("expandPath(\"~/.doglog\") = %s", path1)
 	}
 }
