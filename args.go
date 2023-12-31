@@ -41,7 +41,7 @@ type options struct {
 // parseArgs parses the command-line arguments.
 // returns: *options which contains both the parsed command-line arguments.
 func parseArgs() *options {
-	parser := argparse.NewParser("datadog", "Search and tail logs from Datadog.")
+	parser := argparse.NewParser("doglog", "Search and tail logs from Datadog.")
 
 	var defaultConfigPath = expandPath(DefaultConfigPath)
 
