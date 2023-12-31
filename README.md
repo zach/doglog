@@ -7,12 +7,12 @@ The query syntax is defined here: https://docs.datadoghq.com/logs/explorer/searc
 Originally came from https://github.com/bvargo/gtail. I converted it to Go and Datadog.
 
 ```text
-usage: datadog [-h|--help] [-s|--service "<value>"] [-q|--query "<value>"]
-               [-l|--limit <integer>] [-t|--tail] [-c|--config "<value>"]
-               [-r|--range "<value>"] [--start "<value>"] [--end "<value>"]
-               [-j|--json] [--no-colors]
+usage: doglog [-h|--help] [-s|--service "<value>"] [-q|--query "<value>"]
+              [-l|--limit <integer>] [-t|--tail] [-c|--config "<value>"]
+              [-r|--range "<value>"] [--start "<value>"] [--end "<value>"]
+              [-j|--json] [--no-colors]
 
-               Search and tail logs from Datadog.
+              Search and tail logs from Datadog.
 
 Arguments:
 
